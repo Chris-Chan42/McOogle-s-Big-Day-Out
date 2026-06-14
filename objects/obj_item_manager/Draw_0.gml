@@ -11,7 +11,7 @@ for(var i = 0; i < array_length(inv); i++)
 	var _col = c_white;
 	
 	//icon
-	draw_sprite(inv[i].sprite, 0, _xx, _yy + _sep*i)
+	draw_sprite(inv[i].sprite, 0, _xx +3, (_yy + _sep*i)-5)
 
 	//"select"
 	if selected_item == i {_col	= c_yellow}
@@ -22,7 +22,7 @@ for(var i = 0; i < array_length(inv); i++)
 	
 	//description
 	if selected_item == i {
-	draw_text_ext(_xx, _yy + _sep*array_length(inv), inv[i].description, 12, 80)
+	draw_text_ext(_xx, (_yy + _sep*array_length(inv)) + 15, inv[i].description, 12, 80)
 	}
 	
 draw_set_colour(c_white)

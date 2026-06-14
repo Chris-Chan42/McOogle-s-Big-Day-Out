@@ -39,6 +39,7 @@
     {"name":"inst_43A4E0E0","path":"rooms/rm_WT_f2/rm_WT_f2.yy",},
     {"name":"inst_66D2FBAB","path":"rooms/rm_WT_f2/rm_WT_f2.yy",},
     {"name":"inst_54BFCE7","path":"rooms/rm_WT_f2/rm_WT_f2.yy",},
+    {"name":"inst_263FDAF3","path":"rooms/rm_WT_f2/rm_WT_f2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -78,13 +79,14 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_630B15F9_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_630B15F9_1","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-29.01326,"scaleX":1.5,"scaleY":0.9375,"x":203.43922,"y":148.80246,},
         {"$GMRInstance":"v4","%Name":"inst_54BFCE7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54BFCE7","objectId":{"name":"obj_The_Master","path":"objects/obj_The_Master/obj_The_Master.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":102.0,"y":62.0,},
+        {"$GMRInstance":"v4","%Name":"inst_263FDAF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_263FDAF3","objectId":{"name":"obj_staff_spawn","path":"objects/obj_staff_spawn/obj_staff_spawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":145.0,"y":129.80246,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_WT_f2","path":"sprites/spr_WT_f2/spr_WT_f2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_WT_f2",
   "parent":{
     "name":"Wizard_Tower",
-    "path":"folders/Rooms/Wizard_Tower.yy",
+    "path":"folders/Rooms/Town/Wizard_Tower.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -99,7 +101,7 @@
   "roomSettings":{
     "Height":216,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":288,
   },
   "sequenceId":null,

@@ -23,6 +23,7 @@
     {"name":"inst_7BB683F7","path":"rooms/rm_Fat_Man_Tent/rm_Fat_Man_Tent.yy",},
     {"name":"inst_4CD6A8E2","path":"rooms/rm_Fat_Man_Tent/rm_Fat_Man_Tent.yy",},
     {"name":"inst_3F55E0E0","path":"rooms/rm_Fat_Man_Tent/rm_Fat_Man_Tent.yy",},
+    {"name":"inst_7B14DFD","path":"rooms/rm_Fat_Man_Tent/rm_Fat_Man_Tent.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,13 +47,14 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_580CC444_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_580CC444_1_1","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.34375,"scaleY":1.0,"x":142.25,"y":186.0,},
         {"$GMRInstance":"v4","%Name":"inst_3F55E0E0","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F55E0E0","objectId":{"name":"obj_thin_man","path":"objects/obj_thin_man/obj_thin_man.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-13.511982,"scaleX":1.0,"scaleY":1.1333333,"x":128.92447,"y":96.01839,},
+        {"$GMRInstance":"v4","%Name":"inst_7B14DFD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B14DFD","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.15625,"scaleY":0.8125,"x":186.5,"y":125.5,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_FMT","path":"sprites/spr_FMT/spr_FMT.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_Fat_Man_Tent",
   "parent":{
-    "name":"MnE_House",
-    "path":"folders/Rooms/MnE_House.yy",
+    "name":"Town",
+    "path":"folders/Rooms/Town.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

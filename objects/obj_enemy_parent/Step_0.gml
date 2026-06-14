@@ -12,7 +12,7 @@ if (dist > 1)
     yspd = (dy / dist) * move_spd;
 }
 
-// Wall collisions (same idea as McOogle)
+// Wall collisions
 if place_meeting(x + xspd, y, obj_Wall)
 {
     xspd = 0;
@@ -30,17 +30,6 @@ y += yspd;
 // Death check
 if (hp <= 0)
 {
-    // Quests Checklist
 	
-	//Basement peebs
-    if (object_index == obj_peebs && room == rm_Basement)
-    {
-        // Check if this is the last Peeb
-        if (instance_number(obj_peebs) <= 1)
-        {
-            global.peebs_defeated = true;
-        }
-    }
-
-    instance_destroy();
+	instance_destroy();
 }

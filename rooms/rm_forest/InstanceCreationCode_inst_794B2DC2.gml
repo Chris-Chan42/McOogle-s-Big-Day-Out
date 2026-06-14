@@ -1,0 +1,1 @@
+text_id = "THE_STICK";

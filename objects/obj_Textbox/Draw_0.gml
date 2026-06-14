@@ -1,3 +1,5 @@
+depth = -100000000;
+
 accept_key = keyboard_check_pressed(vk_space)
 
 textbox_x = camera_get_view_x(view_camera[0]);
@@ -58,7 +60,7 @@ if setup == false
 			{
 				var _char_pos = c+1
 				var _txt_x = textbox_x + text_x_offset[p] + border;
-				var _txt_y = textbox_y + border;
+				var _txt_y = textbox_y + border + 6;
 				
 				var _txt_up_to_char = string_copy( text[p], 1, _char_pos);
 				var _current_txt_w = string_width(_txt_up_to_char) - string_width(char[c,p]);

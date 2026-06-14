@@ -1,4 +1,4 @@
-depth= -9999
+
 
 //textbox parameters
 textbox_width = 200;

@@ -74,7 +74,7 @@
   "name":"rm_WT_f1",
   "parent":{
     "name":"Wizard_Tower",
-    "path":"folders/Rooms/Wizard_Tower.yy",
+    "path":"folders/Rooms/Town/Wizard_Tower.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

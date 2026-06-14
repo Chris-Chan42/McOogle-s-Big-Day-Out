@@ -60,7 +60,7 @@ burger_half : new create_item(
 	
 bomb : new create_item(
 	"Bomb",
-	"mmmmmmmmm Bomb",
+	"Can be used to destroy rubble",
 	spr_bomb,
 	true,
 	function()
@@ -83,6 +83,47 @@ bomb : new create_item(
 		{array_delete(inv, selected_item, 1);}
 		}
 ),
+package : new create_item(
+	"Master's Package",
+	"Smells funny",
+	spr_package,
+	true,
+	function()
+		{
+			
+		
+		}
+),
+glue : new create_item(
+	"Sticky Glue",
+	"Binds things together",
+	spr_glue,
+	true,
+	function()
+		{
+		
+		}
+),
+orb : new create_item(
+	"Purple Orb",
+	"Holding this makes my head hurt",
+	spr_orb,
+	true,
+	function()
+		{
+		
+		}
+),
+the_stick : new create_item(
+	"THE STICK",
+	"A perfect stick",
+	spr_THE_STICK_icon,
+	true,
+	function()
+		{
+		
+		}
+),
 
 }
 
@@ -93,7 +134,10 @@ inv = array_create(0);
 inv_max = 5;
 selected_item = -1;
 
+//money
+global.money = 20;
 	
 //drawing and mouse position
 sep = 16;
 screen_bord = 16;
+
