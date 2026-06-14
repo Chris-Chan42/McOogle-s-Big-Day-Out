@@ -31,14 +31,12 @@ switch(menu_level) {
 	//Settings
 	case 1:
 	switch(pos){
-		//Window Size
+
 		case 0: break;
-		//Brightness
+
 		case 1: break;
-		//Controls
-		case 2: break;
 		//Back
-		case 3: menu_level = 0; break;
+		case 2: menu_level = 0; break;
 	}
 	
 }
